@@ -43,9 +43,9 @@ Hinweise zur Nutzung
 
 ---
 
-## 📦 Beispielrechnungen
+## 📦 Beispielrechnungen ohne Rechner, ChatGPT und Programmlisting
 
-- Berechnungen.pdf
+- Anhang.pdf
 
 ---
 
