@@ -5,7 +5,7 @@ Alle Berechnungen erfolgen in Python.
 
 ## 🚀 Direkt starten mit Binder - kann einige Zeit dauern
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RVeh/EX_Setzstrategien/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RVeh/Setzstrategien/HEAD)
 
 ---
 
