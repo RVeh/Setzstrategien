@@ -28,7 +28,6 @@ Alle zentralen Funktionen befinden sich in:
 
 ```python
 PropSetzstrategien.py
-
 ```
 ---
 
