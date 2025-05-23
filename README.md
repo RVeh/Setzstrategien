@@ -27,7 +27,7 @@ Alle Berechnungen erfolgen in Python.
 Alle zentralen Funktionen befinden sich in:
 
 ```python
-chipspiel_utils.py
+PropSetzstrategien.py
 
 ```
 ---
@@ -37,7 +37,7 @@ Hinweise zur Nutzung
 - Notebooks lassen sich direkt in Jupyter oder auf Binder öffnen.
 - Bei Binder oder JupyterLab bitte in der Menüzeile **"Run All Cells"** auswählen, um alle Ausgaben zu erzeugen.
 - Das Projekt verwendet die Python-Standardbibliothek und `matplotlib` für Visualisierungen.
-- Bei Nutzung von JupytherLab muss sich die Datei *chipspiel.py* im gleichen Verzeichnis wie das benutzte Nootebook befinden.
+- Bei Nutzung von JupytherLab muss sich die Datei *PropSetzstrategien.py* im gleichen Verzeichnis wie das benutzte Nootebook befinden.
 
 ---
 
