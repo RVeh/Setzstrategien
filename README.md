@@ -16,7 +16,7 @@ Alle Berechnungen erfolgen in Python.
 | `00_Start.ipynb` | Übersicht und Einstiegspunkt |
 | `01-P_A-P_B-P_U.ipynb` | Gewinnwahrscheinlichkeiten beim Ein-Würfel-Spiel |
 | `02-S-gegen-alle-T.ipynb` | Alle Strategien $T$ mit Chipsumme $n$ gegen $S$ |
-| `01_EinSpieler_3D.ipynb` | 3D-Darstellung für $m = 3$ |
+| `03-Simulation-P_A-P_B.ipynb` | Simulationen mit 95%-WALD-Konfidenzintervall |
 | `02_ZweiSpieler_EX_mit_E_V_und_W.ipynb` | Vergleich: $E(V)$, $E(W)$, $E(V, W)$ |
 | `02_Zweispieler_V_gegen_alle.ipynb` | Feste Strategie $V$ gegen alle möglichen $W$ |
 
