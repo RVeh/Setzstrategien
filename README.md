@@ -1,7 +1,7 @@
-# 🧠 Chip-Abräumspiele - Erwartungswerte der Spieldauer
+# 🧠 Chip-Abräumspiele - Wahrscheinlichkeiten
 
-Ein interaktives Projekt zur Analyse von Chip-Verteilstrategien mit exakten Erwartungswerten.  
-Alle Berechnungen erfolgen in Python – exakt mit Bruchrechnung (Fraction).
+Ein interaktives Projekt zur Analyse von Chip-Verteilstrategien mit exakten und numerischen Berechnungen zu Gewinnwahrscheinlichkeiten.
+Alle Berechnungen erfolgen in Python.
 
 ## 🚀 Direkt starten mit Binder - kann einige Zeit dauern
 
@@ -14,7 +14,7 @@ Alle Berechnungen erfolgen in Python – exakt mit Bruchrechnung (Fraction).
 | Notebook | Inhalt |
 |----------|--------|
 | `00_Start.ipynb` | Übersicht und Einstiegspunkt |
-| `01_EinSpieler_EX.ipynb` | Erwartungswert $E(V)$ für eine Strategie |
+| `01_P_A-P_B-P_U.ipynb` | Gewinnwahrscheinlichkeiten beim Ein-Würfel-Spiel |
 | `01_EinSpieler_Alle_Verteilungen.ipynb` | Alle Strategien $V$ mit Chipsumme $n$ |
 | `01_EinSpieler_3D.ipynb` | 3D-Darstellung für $m = 3$ |
 | `02_ZweiSpieler_EX_mit_E_V_und_W.ipynb` | Vergleich: $E(V)$, $E(W)$, $E(V, W)$ |
