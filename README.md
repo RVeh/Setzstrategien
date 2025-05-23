@@ -17,7 +17,7 @@ Alle Berechnungen erfolgen in Python.
 | `01-P_A-P_B-P_U.ipynb` | Gewinnwahrscheinlichkeiten beim Ein-Würfel-Spiel |
 | `02-S-gegen-alle-T.ipynb` | Alle Strategien $T$ mit Chipsumme $n$ gegen $S$ |
 | `03-Simulation-P_A-P_B.ipynb` | Simulationen (ein Würfel) mit 95%-WALD-Konfidenzintervall |
-| `04-Simulation-ein-zwei-Wuerfel.ipynb` | Simulationen (ein/zwei Würfel) mit 95%-WALD-Konfidenzintervall\n 
+| `04-Simulation-ein-zwei-Wuerfel.ipynb` | Simulationen (ein/zwei Würfel) mit 95%-WALD-Konfidenzintervall 
                                           mit exakten Berechnnungen für den ein-Würfel-Fall|
 | `02_Zweispieler_V_gegen_alle.ipynb` | Feste Strategie $V$ gegen alle möglichen $W$ |
 
