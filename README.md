@@ -18,7 +18,7 @@ Alle Berechnungen erfolgen in Python.
 | `02-S-gegen-alle-T.ipynb` | Alle Strategien $T$ mit Chipsumme $n$ gegen $S$ |
 | `03-Simulation-P_A-P_B.ipynb` | Simulationen (ein Würfel) mit 95%-WALD-Konfidenzintervallen |
 | `04-Simulation-ein-zwei-Wuerfel.ipynb` | Simulationen (ein/zwei Würfel) mit 95%-WALD-Konfidenzintervallen und exakten Berechnnungen für den ein-Würfel-Fall|
-| `02_Zweispieler_V_gegen_alle.ipynb` | Feste Strategie $V$ gegen alle möglichen $W$ |
+| `05-Vergleich-better-Stragegie.ipynb` | Feste Strategie $V$ gegen alle möglichen $W$ mit der Möglichleit von Einschränken der Chipanzahl für die einzelnen Fächer|
 
 ---
 
