@@ -48,6 +48,7 @@ Hinweise zur Nutzung
 
 | Datei | Inhalt |
 |----------|--------|
+| `Auswertung-1-2-Wuerfel.md` | Auswertung - Ein-Zwei-Würfel-Fall (Differenz trifft) |
 | `Anhang.pdf` | Beispielrechnungen ohne Rechner; Beispiel einer ChatGPT-Kommunikation; Pythonlisting|
 | `Uebersicht-ProbSetzstrategien.md` | Übersicht über alle definierten Funktionen in *PropSetzstrategien.py*|
 
