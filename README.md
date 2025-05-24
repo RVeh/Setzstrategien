@@ -45,13 +45,11 @@ Hinweise zur Nutzung
 
 ## 📦 weitere Dateien
 
-- Anhang.pdf
-
 
 | Datei | Inhalt |
 |----------|--------|
 | `Anhang.pdf` | Beispielrechnungen ohne Rechner; Beispiel einer ChatGPT-Kommunikation; Pythonlisting|
-| `UebersichtProbSetzstrategien.md` | Übersicht über alles definierten Funktionen in *PropSetzstrategien.py*|
+| `UebersichtProbSetzstrategien.md` | Übersicht über alle definierten Funktionen in *PropSetzstrategien.py*|
 
 
 ---
