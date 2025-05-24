@@ -49,7 +49,7 @@ Hinweise zur Nutzung
 | Datei | Inhalt |
 |----------|--------|
 | `Anhang.pdf` | Beispielrechnungen ohne Rechner; Beispiel einer ChatGPT-Kommunikation; Pythonlisting|
-| `UebersichtProbSetzstrategien.md` | Übersicht über alle definierten Funktionen in *PropSetzstrategien.py*|
+| `Uebersicht-ProbSetzstrategien.md` | Übersicht über alle definierten Funktionen in *PropSetzstrategien.py*|
 
 
 ---
