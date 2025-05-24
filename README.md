@@ -43,9 +43,16 @@ Hinweise zur Nutzung
 
 ---
 
-## 📦 Beispielrechnungen ohne Rechner, ChatGPT und Programmlisting
+## 📦 weitere Dateien
 
 - Anhang.pdf
+
+
+| Datei | Inhalt |
+|----------|--------|
+| `Anhang.pdf` | Beispielrechnungen ohne Rechner; Beispiel einer ChatGPT-Kommunikation; Pythonlisting|
+| `UebersichtProbSetzstrategien.md` | Übersicht über alles definierten Funktionen in *PropSetzstrategien.py*|
+
 
 ---
 
