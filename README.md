@@ -17,6 +17,7 @@ Alle Berechnungen erfolgen in Python.
 | `01-P_A-P_B-P_U.ipynb` | Gewinnwahrscheinlichkeiten beim Ein-Würfel-Spiel |
 | `02-S-gegen-alle-T.ipynb` | Alle Strategien $T$ mit Chipsumme $n$ gegen $S$ |
 | `03a-Vergleich-better-Stragegie.ipynb` | Ein-Würfel-Fall: Feste Strategie $V$ gegen alle möglichen Strategien $W$ mit der Möglichlkeit von Einschränkungen der Chipanzahl für die einzelnen Fächer (Suche nach "besseren" Setzstrategien) |
+| `03b-Vergleich-better-Stragegie.ipynb` | Zwei-Würfel-Fall: Feste Strategie $S$ gegen alle möglichen Strategien $T$ mit der Möglichlkeit von Einschränkungen der Chipanzahl für die einzelnen Fächer (Suche nach "besseren" Setzstrategien) |
 | `04-ein-Wuerfel-Fall-symbolisch.ipynb` | symbolische, exakte und numerische Berechnungen für zwei Strategien  |
 | `05-exakt-ein-zwei-Wuerfel.ipynb` | exakte Berechnungen für den ein-und zwei-Würfel-Fall |
 | `06-Simulation-P_A-P_B.ipynb` | Simulationen (ein Würfel) mit 95%-WALD-Konfidenzintervallen |
