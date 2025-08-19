@@ -18,7 +18,7 @@ Alle Berechnungen erfolgen in Python.
 | `02-S-gegen-alle-T.ipynb` | Alle Strategien $T$ mit Chipsumme $n$ gegen $S$ |
 | `03a-Vergleich-better-Stragegie.ipynb` | Ein-Würfel-Fall: Feste Strategie $V$ gegen alle möglichen Strategien $W$ mit der Möglichlkeit von Einschränkungen der Chipanzahl für die einzelnen Fächer (Suche nach "besseren" Setzstrategien) |
 | `03b-Vergleich-better-Stragegie.ipynb` | Zwei-Würfel-Fall: Feste Strategie $S$ gegen alle möglichen Strategien $T$ mit der Möglichlkeit von Einschränkungen der Chipanzahl für die einzelnen Fächer (Suche nach "besseren" Setzstrategien) |
-| `03c-Dominanz-Zyklen.ipynb` | Dieses Notebook erzeugt **alle Strategien** (Chipverteilungen) für gegebene Trefferwahrscheinlichkeiten `p` und Gesamtchipzahl `total_chips`, vergleicht jede Strategie mit jeder anderen **exakt** (mit `Fraction`) und wertet die **Dominanzrelation** sowie **nichttransitive 3-Zyklen** aus.|
+| `03c-Dominanz-Zyklen.ipynb` | Dieses Notebook erzeugt alle Strategien (Chipverteilungen) für gegebene Trefferwahrscheinlichkeiten und Gesamtchipzahl, vergleicht jede Strategie mit jeder anderen exakt und wertet die Dominanzrelation sowie nichttransitive 3-Zyklen aus.|
 | `04a-ein-Wuerfel-Fall-symbolisch.ipynb` | symbolische Berechnungen für zwei Setzstrategien (kompakt)  |
 | `04b-ein-Wuerfel-Fall-symbolisch-exakt-numerisch.ipynb` | symbolische, exakte und numerische Berechnungen für zwei Setzstrategien  |
 | `05-exakt-ein-zwei-Wuerfel.ipynb` | exakte Berechnungen für den ein-und zwei-Würfel-Fall |
