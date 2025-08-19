@@ -22,6 +22,7 @@ Alle Berechnungen erfolgen in Python.
 | `05-exakt-ein-zwei-Wuerfel.ipynb` | exakte Berechnungen für den ein-und zwei-Würfel-Fall |
 | `06-Simulation-P_A-P_B.ipynb` | Simulationen (ein Würfel) mit 95%-WALD-Konfidenzintervallen |
 | `07-Simulation-ein-zwei-Wuerfel.ipynb` | Simulationen (ein/zwei Würfel) mit 95%-WALD-Konfidenzintervallen und exakten Berechnnungen für den ein-Würfel-Fall|
+| `08-Simulation-Exakt.kompakt.ipynb` | Simulationen (ein Würfel) mit 95%-WILSON-Konfidenzintervallen, exakten Berechnnungen und Grafikausgabe|
 
 
 ---
