@@ -18,7 +18,8 @@ Alle Berechnungen erfolgen in Python.
 | `02-S-gegen-alle-T.ipynb` | Alle Strategien $T$ mit Chipsumme $n$ gegen $S$ |
 | `03a-Vergleich-better-Stragegie.ipynb` | Ein-Würfel-Fall: Feste Strategie $V$ gegen alle möglichen Strategien $W$ mit der Möglichlkeit von Einschränkungen der Chipanzahl für die einzelnen Fächer (Suche nach "besseren" Setzstrategien) |
 | `03b-Vergleich-better-Stragegie.ipynb` | Zwei-Würfel-Fall: Feste Strategie $S$ gegen alle möglichen Strategien $T$ mit der Möglichlkeit von Einschränkungen der Chipanzahl für die einzelnen Fächer (Suche nach "besseren" Setzstrategien) |
-| `04-ein-Wuerfel-Fall-symbolisch.ipynb` | symbolische, exakte und numerische Berechnungen für zwei Setzstrategien  |
+| `04a-ein-Wuerfel-Fall-symbolisch.ipynb` | symbolische Berechnungen für zwei Setzstrategien (kompakt)  |
+| `04b-ein-Wuerfel-Fall-symbolisch-exakt-numerisch.ipynb` | symbolische, exakte und numerische Berechnungen für zwei Setzstrategien  |
 | `05-exakt-ein-zwei-Wuerfel.ipynb` | exakte Berechnungen für den ein-und zwei-Würfel-Fall |
 | `06-Simulation-P_A-P_B.ipynb` | Simulationen (ein Würfel) mit 95%-WALD-Konfidenzintervallen |
 | `07-Simulation-ein-zwei-Wuerfel.ipynb` | Simulationen (ein/zwei Würfel) mit 95%-WALD-Konfidenzintervallen und exakten Berechnnungen für den ein-Würfel-Fall|
