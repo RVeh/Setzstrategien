@@ -53,7 +53,6 @@ Hinweise zur Nutzung
 | Datei | Inhalt |
 |----------|--------|
 | `Berechnung_haendisch-P(200,001)` | Berechnungen zu P(200,001) ohne Rechnereinsatz; Beispiel einer ChatGPT-Kommunikation; Pythonlisting mit Dokumentation, die von ChatGPT erstellt wurde|
-| `Auswertung-1-2-Wuerfel.md` | Auswertung - Ein-Zwei-Würfel-Fall (Differenz trifft) |
 | `Uebersicht-ProbSetzstrategien.md` | Übersicht über alle definierten Funktionen in *PropSetzstrategien.py*|
 
 
