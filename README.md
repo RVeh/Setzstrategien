@@ -13,8 +13,8 @@ Alle Berechnungen erfolgen in Python.
 
 | Notebook | Inhalt |
 |----------|--------|
-| `00_Start.ipynb` | Übersicht und Einstiegspunkt |
-| `01-P_A-P_B-P_U.ipynb` | Gewinnwahrscheinlichkeiten beim Ein-Würfel-Spiel |
+| `01a-P_A-P_B-P_U-Abb2.ipynb` | Gewinnwahrscheinlichkeiten beim Ein-Würfel-Spiel - Abb.2 - mit Ein- und Ausgabe |
+| `01b-P_A-P_B-P_U.ipynb` | Gewinnwahrscheinlichkeiten beim Ein-Würfel-Spiel |
 | `02-S-gegen-alle-T.ipynb` | Alle Strategien $T$ mit Chipsumme $n$ gegen $S$ |
 | `03a-Vergleich-better-Stragegie.ipynb` | Ein-Würfel-Fall: Feste Strategie $V$ gegen alle möglichen Strategien $W$ mit der Möglichlkeit von Einschränkungen der Chipanzahl für die einzelnen Fächer (Suche nach "besseren" Setzstrategien) |
 | `03b-Vergleich-better-Stragegie.ipynb` | Zwei-Würfel-Fall: Feste Strategie $S$ gegen alle möglichen Strategien $T$ mit der Möglichlkeit von Einschränkungen der Chipanzahl für die einzelnen Fächer (Suche nach "besseren" Setzstrategien) |
