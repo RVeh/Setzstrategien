@@ -52,6 +52,8 @@ Hinweise zur Nutzung
 
 | Datei | Inhalt |
 |----------|--------|
+| `Dokumentation-ausfuehrlich.pdf` | ausführliche Dokumentation des Python-Programms (Abb. 2) zur Berechnung von Gewinnwahrscheinlichkeiten|
+| `Unterrichtseinsatz.pdf` | Dokumentation zu einem möglichen Unterrichtseinsatz,  didaktische Bemerkungen, mögliche Aufgaben|
 | `Berechnung_haendisch-P(200,001)` | Berechnungen zu P(200,001) ohne Rechnereinsatz; Beispiel einer ChatGPT-Kommunikation; Pythonlisting mit Dokumentation, die von ChatGPT erstellt wurde|
 | `Uebersicht-ProbSetzstrategien.md` | Übersicht über alle definierten Funktionen in *PropSetzstrategien.py*|
 
