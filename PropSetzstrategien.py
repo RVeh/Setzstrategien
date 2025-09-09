@@ -234,56 +234,45 @@ def simuliere_duell_1_wuerfel(S, T, p_vals, N=100000, alpha=0.05, seed=None):
 def simuliere_duell_2_wuerfel(S, T, p1_vals, p2_vals, N=100000, alpha=0.05, seed=None):
     """
     Zwei-Würfel-Simulation mit Wald-Konfidenzintervallen.
-
-    Jeder Durchlauf zieht zwei unabhängige Feldauswahlen (i1, i2).
-    Chips werden für beide Würfe entfernt.
-
-    Args:
-        S, T (tuple[int]): Strategien von A und B.
-        p1_vals, p2_vals: Wahrscheinlichkeitsverteilungen der Würfel.
-        N (int): Anzahl Simulationen.
-        alpha (float): Signifikanzniveau.
-        seed (int): Zufalls-Seed.
-    Returns:
-        dict mit gleichen Keys wie simulate_with_wald.
+    Jede Runde: A wirft Index i ~ p1, B wirft Index j ~ p2 (unabhängig).
+    Entfernen jeweils 1 Chip, falls am geworfenen Feld > 0 vorhanden.
     """
     import numpy as np
-    from scipy.stats import norm
+    try:
+        from scipy.stats import norm
+        z = norm.ppf(1 - alpha/2)
+    except Exception:
+        z = 1.959963984540054  # 95%-Fallback
+
     rng = np.random.default_rng(seed)
-    m = len(p1_vals)
-    counts = {'A':0, 'B':0, 'U':0}
+    p1 = np.asarray(p1_vals, dtype=float); p1 /= p1.sum()
+    p2 = np.asarray(p2_vals, dtype=float); p2 /= p2.sum()
+    m1, m2 = len(p1), len(p2)
+    assert len(S) == m1 and len(T) == m2, "Strategielängen müssen zu p1/p2 passen"
+
+    wins = {'A': 0, 'B': 0, 'U': 0}
     for _ in range(N):
-        s = list(S)
-        t = list(T)
+        V = list(S); W = list(T)
         while True:
-            i1 = rng.choice(m, p=p1_vals)
-            i2 = rng.choice(m, p=p2_vals)
-            # erstes Würfelergebnis
-            if s[i1] > 0: s[i1] -= 1
-            if t[i1] > 0: t[i1] -= 1
-            # zweites Würfelergebnis
-            if s[i2] > 0: s[i2] -= 1
-            if t[i2] > 0: t[i2] -= 1
-            if sum(s)==0 and sum(t)==0:
-                counts['U'] += 1; break
-            if sum(s)==0:
-                counts['A'] += 1; break
-            if sum(t)==0:
-                counts['B'] += 1; break
-    # Schätzwerte
-    phat_A = counts['A']/N
-    phat_B = counts['B']/N
-    phat_U = counts['U']/N
-    # Wald-CI
-    z = norm.ppf(1 - alpha/2)
-    def wald_ci(p):
-        delta = z * (p*(1-p)/N)**0.5
-        return (max(0, p - delta), min(1, p + delta))
-    return {
-        'P_A': (phat_A, wald_ci(phat_A)),
-        'P_B': (phat_B, wald_ci(phat_B)),
-        'P_U': (phat_U, wald_ci(phat_U)),
-    }
+            i = rng.choice(m1, p=p1)  # A's Wurf
+            j = rng.choice(m2, p=p2)  # B's Wurf
+            if V[i] > 0: V[i] -= 1
+            if W[j] > 0: W[j] -= 1
+            sv, sw = sum(V), sum(W)
+            if sv == 0 and sw == 0:
+                wins['U'] += 1; break
+            if sv == 0:
+                wins['A'] += 1; break
+            if sw == 0:
+                wins['B'] += 1; break
+
+    phA = wins['A']/N; phB = wins['B']/N; phU = wins['U']/N
+    def ci(p):
+        delta = z * (p*(1-p)/N) ** 0.5
+        return (max(0.0, p - delta), min(1.0, p + delta))
+    return {'P_A': (phA, ci(phA)), 'P_B': (phB, ci(phB)), 'P_U': (phU, ci(phU))}
+
+
 
 
 def find_better_strategies(base_strategy, total_chips, min_limits, max_limits,
