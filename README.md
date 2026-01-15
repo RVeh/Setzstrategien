@@ -7,6 +7,7 @@ Alle Berechnungen erfolgen in Python.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RVeh/Setzstrategien/HEAD)
 
+Im Menü `Run| Run all Cells` drücken, um die Programme zu starten.
 ---
 
 ## 📂 Struktur der Notebooks
